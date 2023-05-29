@@ -1,4 +1,5 @@
 # Diabetes_Prediction
 This project is all about Diabetes and its Prediction using Machine Learning Algorithms
-![image](https://github.com/Kousikjami/Diabetes_Prediction/assets/121508643/905fd28b-8b41-41ce-94c1-8c2d31b58061)
+![Screenshot (87)](https://github.com/Kousikjami/Diabetes_Prediction/assets/121508643/67a449ff-13e3-4225-ad93-4cc08b695f13)
+
 
