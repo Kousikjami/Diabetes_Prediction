@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ML prediction</title>
+        <style>
+            img {
+              background: fixed;
+              position: absolute;
+              left: 0px;
+              top: 0px;
+              z-index: -1;
+            }
+            </style>
+    <body bgcolor="Aquamarine">
+        <center>
+            <h1>PREDICTION DETAILS</h1>
+            <div class="form-container">
+                <form action="/predict" method="post">
+                    <table class="form-table">
+                        <tr>
+                            <td><b>Pregnancies:</b></td>
+                            <td><input type="text" name="a" placeholder="Pregnancies"></td>
+                        </tr>
+                        <tr>
+                            <td><b>Glucose:</b></td>
+                            <td><input type="text" name="b" placeholder="Glucose"></td>
+                        </tr>
+                        <tr>
+                            <td><b>BloodPressure:</b></td>
+                            <td><input type="text" name="c" placeholder="BloodPressure"></td>
+                        </tr>
+                        <tr>
+                            <td><b>SkinThickness:</b></td>
+                            <td><input type="text" name="d" placeholder="SkinThickness"></td>
+                        </tr>
+                        <tr>
+                            <td><b>Insulin:</b></td>
+                            <td><input type="text" name="e" placeholder="Insulin"></td>
+                        </tr>
+                        <tr>
+                            <td><b>BMI:</b></td>
+                            <td><input type="text" name="f" placeholder="BMI"></td>
+                        </tr>
+                        <tr>
+                            <td><b>DiabetesPedigreeFunction:</b></td>
+                            <td><input type="text" name="g" placeholder="DiabetesPedigreeFunction"></td>
+                        </tr>
+                        <tr>
+                            <td><b>Age:</b></td>
+                            <td><input type="text" name="h" placeholder="Age"></td>
+                        </tr>
+                    </table>
+                    <br>
+                    <button class="btn btn-success"><b>Predict</b></button>
+                </form>
+                <div>{{prediction}}</div>
+            </div>
+        </center>          
+    </body>
+</head>
+</html>
